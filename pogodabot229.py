@@ -7,7 +7,7 @@ config_dict['language'] = 'ru'
 
 owm = pyowm.OWM('aa035df792983c4ab2a26587db48cf2e', config_dict)
 mgr = owm.weather_manager()
-bot = telebot.TeleBot("1816521489:AAHtusp6DmQP5atiFIrlFkvGYTnx_1eaLtY", parse_mode=None)
+bot = telebot.TeleBot("", parse_mode=None)
 
 
 @bot.message_handler(content_types=['text'])
